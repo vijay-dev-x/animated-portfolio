@@ -1,0 +1,12 @@
+@import "../../mapp.scss";
+
+.cursor {
+  height: 30px;
+  width: 30px;
+  border: 1px solid lightslategray;
+  z-index: 999;
+  border-radius: 50%;
+  @include mobile {
+    display: none;
+  }
+}

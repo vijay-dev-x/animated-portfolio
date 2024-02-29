@@ -1,0 +1,103 @@
+@import "../../mapp.scss";
+
+.portfolio {
+  position: relative;
+  // overflow: hidden;
+
+  .scrollProgress {
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 35px;
+  }
+  h1 {
+    @include mobile {
+      font-size: 1em;
+    }
+  }
+  .progressBar {
+    height: 10px;
+    background-color: white;
+    border-radius: 50px;
+    @include mobile {
+      height: 7px;
+      margin-top: 10px;
+    }
+  }
+
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    // border: 2px solid red;
+    @include mobile {
+      padding: 20px;
+    }
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 100px;
+  // border: 2px solid red;
+
+  @include mobile {
+    flex-direction: column;
+    gap: 40%;
+  }
+  .imageBox {
+    width: 50%;
+    @include mobile {
+      height: 50%;
+    }
+    img {
+      height: 80%;
+      width: 80%;
+      border-radius: 20px;
+      background-position: center;
+      @include mobile {
+        height: 200px;
+        width: 200px;
+        padding-top: 80px;
+        background-position: center;
+        border-radius: 200px;
+      }
+    }
+  }
+  .textBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    @include mobile {
+      height: 50%;
+      width: 100%;
+    }
+  }
+  h1 {
+    text-align: start;
+    @include mobile {
+      text-align: center;
+      font-size: 1.6em;
+    }
+  }
+
+  button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    text-align: center;
+    @include mobile {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

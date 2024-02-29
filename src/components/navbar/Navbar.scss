@@ -1,0 +1,43 @@
+@import "../../mapp.scss";
+
+.navbar {
+  height: 100px;
+  // background-color: red;
+  @include mobile {
+    height: 60px;
+  }
+}
+
+.navbar-wrapper {
+  height: 100%;
+  // background-color: blue;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   background-color: red;
+  margin: auto;
+}
+.left-nav {
+  @include mobile {
+    display: none;
+  }
+}
+.right-nav {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2em;
+  // border: 2px solid red;
+  @include mobile {
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    gap: 15px;
+  }
+
+  span {
+    :hover {
+      color: orange;
+    }
+  }
+}
