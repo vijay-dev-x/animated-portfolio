@@ -21,8 +21,14 @@
     margin-top: 10px;
     @include mobile {
       padding-top: 20px;
+      padding-left: 20px;
       align-self: flex-start;
       gap: 20px;
+    }
+    br {
+      @include mobile {
+        display: none;
+      }
     }
 
     hr {

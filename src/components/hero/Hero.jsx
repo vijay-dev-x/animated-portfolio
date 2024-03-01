@@ -1,6 +1,8 @@
 import React from "react";
 import "./hero.scss";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
+import { GoLinkExternal } from "react-icons/go";
 
 const textVarient = {
   initial: {
@@ -55,11 +57,29 @@ function Hero() {
           // transition="transition"
           className="text-container"
         >
-          <motion.h2 variants={textVarient}>Vijay kumar</motion.h2>
-          <motion.h1 variants={textVarient}>Full stack web devloper</motion.h1>
+          <motion.h2 variants={textVarient}>Vijay&nbsp; kumar</motion.h2>
+          <motion.h1 variants={textVarient}>
+            I'm
+            <span style={{ margin: "0px 10px" }}>
+              <Typewriter
+                words={[
+                  "Frontend Developer",
+                  "Backend Developer",
+                  "UI/UX Developer",
+                  "Full Stack Developer",
+                ]}
+                loop={false}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={70}
+                delaySpeed={1000}
+              />
+            </span>
+          </motion.h1>
           <motion.div variants={textVarient} className="button-div">
-            <button>button1</button>
-            <button>button2</button>
+            {/* <button>Cartification</button>
+            <button>button2</button> */}
           </motion.div>
           <motion.div
             variants={scrollVarient}
@@ -76,7 +96,10 @@ function Hero() {
           initial="initial"
           className="sliding-text"
         >
-          <h1>Yes ipsum dolor sit amet.</h1>
+          <h1>
+            The web developer creates dynamic, user-friendly websites with
+            advanced functionalities.
+          </h1>
         </motion.div>
 
         <div className="image-container">

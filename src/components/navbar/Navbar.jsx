@@ -10,7 +10,7 @@ import Sidebar from "../hamburgar/Sidebar";
 function Navbar() {
   return (
     <div className="navbar">
-      <Sidebar>s</Sidebar>
+      {/* <Sidebar>s</Sidebar> */}
       <div className="navbar-wrapper">
         <div className="left-nav">
           <motion.h2

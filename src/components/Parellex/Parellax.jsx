@@ -24,7 +24,7 @@ function Parellax({ type }) {
       }}
     >
       <motion.h1 style={{ y: yText }}>
-        {type === "services" ? "What I do ?" : "What I did"}
+        {type === "services" ? "What I do ?" : "What I did!!"}
       </motion.h1>
       <div className="mountains"></div>
       <motion.div style={{ y: ySun }} className="planets"></motion.div>
