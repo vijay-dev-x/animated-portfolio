@@ -60,7 +60,7 @@ function Contact() {
           <p>vm2218943@gmail.com</p>
         </motion.div>
         <motion.div variants={variants}>
-          <h2>Address</h2>
+          <h2>Address-</h2>
           <p>Jharkhand,India</p>
         </motion.div>
         <motion.div variants={variants}>
