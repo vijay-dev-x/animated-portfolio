@@ -1,11 +1,11 @@
 import "./mapp.scss";
 import Parellax from "./components/Parellex/Parellax";
 import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/navbar";
-import Portfolio from "./components/portfolio/portfolio";
+import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Service from "./components/services/Service";
+import Navbar from "./components/navbar/Navbar";
 const App = () => {
   return (
     <>
