@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Service from "./components/services/Service";
 import Navbar from "./components/navbar/Navbar";
+import Skills from "./components/skils/Skills";
 const App = () => {
   return (
     <>
@@ -18,8 +19,9 @@ const App = () => {
         <section id="services">
           <Parellax type="services"></Parellax>
         </section>
+        {/* <Service></Service> */}
         <section>
-          <Service></Service>
+          <Skills></Skills>
         </section>
 
         <section id="portfolio">
@@ -27,6 +29,7 @@ const App = () => {
         </section>
 
         <Portfolio></Portfolio>
+
         <section>
           <Contact></Contact>
         </section>

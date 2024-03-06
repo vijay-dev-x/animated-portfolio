@@ -20,18 +20,18 @@ function Navbar() {
           ></motion.h2>
         </div>
         <div className="right-nav">
-          <span>
+          <a target="_blank" href="https://www.instagram.com/vijay_dev.x/">
             <FaInstagram></FaInstagram>
-          </span>
-          <span>
+          </a>
+          <a target="_blank" href="https://github.com/vijay-dev-x">
             <FaGithub></FaGithub>
-          </span>
-          <span>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/vijay-dev-x/">
             <FaLinkedin></FaLinkedin>
-          </span>
-          <span>
+          </a>
+          <a target="_blank" href="mailto:vm2218943@gmail.com">
             <SiGmail></SiGmail>
-          </span>
+          </a>
         </div>
       </div>
     </div>

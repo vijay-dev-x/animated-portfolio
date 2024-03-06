@@ -41,7 +41,7 @@ export default function Service() {
       <div className="container">
         <motion.div className="top-service">
           <div className="top1">
-            <img src="../../../public/people.webp" alt="" />
+            <img src="/people.webp" alt="" />
             <h2>
               <motion.b whileHover={{ color: "orange" }}> Uniqu</motion.b>
               <span> ideas</span>

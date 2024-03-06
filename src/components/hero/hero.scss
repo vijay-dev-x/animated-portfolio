@@ -2,8 +2,11 @@
 .hero-section {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100vh;
-  max-width: 1400px;
+  max-width: 1500px;
   overflow: hidden;
+  position: relative;
+
+  margin: auto;
   // position: relative;
 
   .hero-wrapper {
@@ -46,6 +49,9 @@
       @include mobile {
         text-align: center;
       }
+      span {
+        color: orange;
+      }
     }
   }
 
@@ -63,8 +69,10 @@
       // height: 50%;
     }
     img {
-      height: 100%;
-
+      z-index: 2;
+      width: 80%;
+      margin-top: 50px;
+      height: 65%;
       @include mobile {
         // height: 100%;
         // width: 50%;
@@ -85,7 +93,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 3em;
-    color: rgb(97 67 157);
+    color: orange;
     @include mobile {
       font-size: 6vw;
       max-width: 100%;

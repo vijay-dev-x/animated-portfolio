@@ -49,6 +49,17 @@ const sliddingText = {
 function Hero() {
   return (
     <div className="hero-section">
+      <motion.div
+        variants={sliddingText}
+        animate="animate"
+        initial="initial"
+        className="sliding-text"
+      >
+        <h1>
+          The web developer creates dynamic, user-friendly websites with
+          advanced functionalities.
+        </h1>
+      </motion.div>
       <div className="hero-wrapper ">
         <motion.div
           variants={textVarient}
@@ -71,8 +82,8 @@ function Hero() {
                 loop={false}
                 cursor
                 cursorStyle="_"
-                typeSpeed={70}
-                deleteSpeed={70}
+                typeSpeed={60}
+                deleteSpeed={60}
                 delaySpeed={1000}
               />
             </span>
@@ -90,21 +101,19 @@ function Hero() {
             <img src="/public/scroll.png" alt="" />
           </motion.div>
         </motion.div>
-        <motion.div
-          variants={sliddingText}
-          animate="animate"
-          initial="initial"
-          className="sliding-text"
-        >
-          <h1>
-            The web developer creates dynamic, user-friendly websites with
-            advanced functionalities.
-          </h1>
-        </motion.div>
 
-        <div className="image-container">
-          <img src="/public/hero.png" alt="" />
-        </div>
+        <motion.div
+          initial={{ y: "50px" }} // Initial scale of 1
+          animate={{ y: "0px" }} // Animating the scale property from 1 to 1.2 back to 1
+          transition={{
+            duration: 4, // Duration of each scale animation
+            repeat: Infinity, // Repeating the animation infinitely
+            repeatType: "reverse", // Reversing the animation to create a bounce effect
+          }}
+          className="image-container"
+        >
+          <img src="/hero-face-2.png" alt="" />
+        </motion.div>
       </div>
     </div>
   );
