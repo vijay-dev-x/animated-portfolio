@@ -106,13 +106,13 @@ function Hero() {
           initial={{ y: "50px" }} // Initial scale of 1
           animate={{ y: "0px" }} // Animating the scale property from 1 to 1.2 back to 1
           transition={{
-            duration: 4, // Duration of each scale animation
+            duration: 6, // Duration of each scale animation
             repeat: Infinity, // Repeating the animation infinitely
             repeatType: "reverse", // Reversing the animation to create a bounce effect
           }}
           className="image-container"
         >
-          <img src="/hero-face-2.png" alt="" />
+          <img src="/hero-face-3.png" alt="" />
         </motion.div>
       </div>
     </div>
