@@ -1,9 +1,8 @@
 import React from "react";
 import "./hero.scss";
 import { motion } from "framer-motion";
-import { Typewriter } from "react-simple-typewriter";
+import { Cursor, Typewriter } from "react-simple-typewriter";
 import { GoLinkExternal } from "react-icons/go";
-
 const textVarient = {
   initial: {
     x: -500,
@@ -68,6 +67,7 @@ function Hero() {
           // transition="transition"
           className="text-container"
         >
+          {" "}
           <motion.h2 variants={textVarient}>Vijay&nbsp; kumar</motion.h2>
           <motion.h1 variants={textVarient}>
             I'm
@@ -98,7 +98,7 @@ function Hero() {
             animate="animate"
             className="scroll"
           >
-            <img src="/public/scroll.png" alt="" />
+            <img src="/scroll.png" alt="" />
           </motion.div>
         </motion.div>
 

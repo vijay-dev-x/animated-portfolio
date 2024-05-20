@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <div className="app-div">
-        <Cursor></Cursor>
+        {/* <Cursor></Cursor> */}
         <section>
           <Navbar></Navbar>
           <Hero></Hero>

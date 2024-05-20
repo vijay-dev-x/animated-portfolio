@@ -17,7 +17,9 @@ function Navbar() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3 }}
-          ></motion.h2>
+          >
+            Dev<span>X</span>
+          </motion.h2>
         </div>
         <div className="right-nav">
           <a target="_blank" href="https://www.instagram.com/vijay_dev.x/">

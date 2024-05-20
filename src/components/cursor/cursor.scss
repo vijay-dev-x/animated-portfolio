@@ -4,7 +4,8 @@
   height: 30px;
   width: 30px;
   border: 1px solid lightslategray;
-  z-index: 999;
+  z-index: 99999;
+  border: 2px solid rgb(227, 164, 48);
   border-radius: 50%;
   @include mobile {
     display: none;

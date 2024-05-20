@@ -20,7 +20,15 @@
 }
 .left-nav {
   @include mobile {
-    display: none;
+    // display: none;
+    padding: 10px;
+  }
+  h2 {
+    color: rgb(182, 181, 181);
+  }
+  span {
+    font-size: 2rem;
+    color: orange;
   }
 }
 .right-nav {

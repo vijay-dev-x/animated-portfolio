@@ -59,13 +59,18 @@ export default function Skills() {
           <img src="/skills4.png" alt="" />
           <img src="/skills5.png" alt="" />
           <img src="/skills6.png" alt="" />
-          <img src="/skills7.png" alt="" />
           <img src="/skills8.png" alt="" />
+          <img src="/shadcn.png" alt="" />
+          <img src="/typescript.png" alt="" />
+
           <img src="/skills9.png" alt="" />
           <img src="/skills10.png" alt="" />
           <img src="/skills11.png" alt="" />
           <img src="/skills12.png" alt="" />
           <img src="/skills13.png" alt="" />
+          <img src="/firebase.png" alt="" />
+          <img src="/stripe.png" alt="" />
+          <img src="/maria-db.png" alt="" />
           <img src="/skills14.png" alt="" />
           <img src="/skills15.png" alt="" />
         </div>
